@@ -1,1 +1,1 @@
-# learn-typescript
+This is a project for practising the typescript syntax
