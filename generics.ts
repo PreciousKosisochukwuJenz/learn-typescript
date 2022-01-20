@@ -16,6 +16,3 @@
  var getStatusFromInterface = <T extends IRequestStatus<number,Boolean>>(status: T) =>{
     return `${status.status} and ${status.message}`
  }
-
- console.log(getStatus(RequestStatus,"rejected"));
- console.log(getStatusFromInterface({status: 4, message : true}));
