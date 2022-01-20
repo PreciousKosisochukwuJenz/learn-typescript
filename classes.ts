@@ -12,5 +12,25 @@ class Sample{
         return sum;
     }
 }
-var sample:Sample = new Sample(3,4);
-console.log(sample.sumTwoNumbers());
+
+// Extending a class properities
+
+class User{
+    name : string;
+    age : number;
+
+    constructor(name: string,age: number){
+        this.name = name;
+        this.age = age;
+    }
+}
+
+class Person extends User{
+    nickname: string;
+
+    constructor(nick: string,name: string, age:number){
+        super(name,age);
+
+        this.nickname = nick;
+    }
+}

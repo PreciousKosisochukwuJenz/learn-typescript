@@ -11,5 +11,3 @@ var data:ISample = {
         return this.numberone + this.numbertwo;
     }
 };
-
-console.log(data.sum())

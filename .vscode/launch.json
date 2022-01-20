@@ -12,7 +12,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/interface.ts",
+            "program": "${workspaceFolder}/generics.ts",
             "outFiles": [
                 "${workspaceFolder}/out/*.js"
             ]
